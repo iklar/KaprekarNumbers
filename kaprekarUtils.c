@@ -26,15 +26,15 @@
  int isKaprekar(int n)
  {
   if(n < 1) {
-    return 0;
+    return 0; //change to return 0 to end program
   }
 
   int i;
-  long square = n * (long) n;
-  int numberOfDigits = (int) log10(n) + 1;
-  long modulus = 1;
+  long square = (long) n * (long) n; //add a long for the input of n
+  int numberOfDigits = (int) log10(square) + 1; //add square in the parenthesis, incorrect spelling of numberOfDigits
+  long modulus = 1; //incorrect spelling 
   long first, second;
-  for(i=1; i<=numberOfDigits; i++) {
+  for(i=1; i<=numberOfDigits; i++) {//incorrect spelling of variable
     modulus *= 10;
     first = square / modulus;
     second = square % modulus;
