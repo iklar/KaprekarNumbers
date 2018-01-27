@@ -45,3 +45,5 @@
   return 0;
   
 }
+//The commit command wouldn't allow me to enter comments to the code. It was dark, and wouldn't submit like it should. 
+//I wrote comments directly into the code, and made the appropriate changes to the code to make it run correctly.
